@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    min-height: 100vh;
+    background-color: #F2F1F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.facebook_page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+}
+.text h1{
+    font-size: 4rem;
+    color: #267AEE;
+    margin-bottom: 10px;
+}
+.text p{
+    font-size: 1.5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+form input{
+    height: 55px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    opacity: 0.5;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    color: #267AEE;
+}
+.button_login{
+    border: none;
+    padding: 15px 0;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #267AEE;
+    border-radius: 4px;
+    color: #ffff;
+}
+.button_create{
+    align-items: center;
+    font-weight: 600;
+    background-color: #42B62F;
+    color: #ffff;
+    border: none;
+    padding: 15px 0;
+    border-radius: 4px;
+    margin: 30px 80px 0 80px;
+}
